@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <a href="http://127.0.0.1:5500/index.html" id="logo"
+        ><img src="logo4.png" alt=""
+      /></a>
+      <div>
+        <ul id="navbar">
+          <a href="#" id="close"> <i class="fa-solid fa-xmark"></i></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a id="lgbag" href="cart.html"
+              ><i class="fa-solid fa-basket-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Let the Otaku inside you come out and full fill his/her dreams</p>
+      <div class="pro-container">
+        <div
+          onclick="window.location.href='sproduct.html?id=pro1'"
+          class="pro"
+          class="pro"
+          id="pro1"
+        >
+          <img src="product1.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Luffy Gear5 Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro1'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro2'"
+          class="pro"
+          class="pro"
+          id="pro2"
+        >
+          <img class="pro2img" src="product2.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Pain(Nagato) Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro2'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro3'"
+          class="pro"
+          class="pro"
+          id="pro3"
+        >
+          <img src="product3.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Goku vs Frieza Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro3'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro4'"
+          class="pro"
+          class="pro"
+          id="pro4"
+        >
+          <img src="product4.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Goku Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro4'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro5'"
+          class="pro"
+          class="pro"
+          id="pro5"
+        >
+          <img src="product5.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Luffy Mini Figure keychain</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹149/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro5'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro6'"
+          class="pro"
+          class="pro"
+          id="pro6"
+        >
+          <img src="product6.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Madara Mini Figure Keychain</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹149/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro6'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro7'"
+          class="pro"
+          id="pro7"
+        >
+          <img src="product7.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Sung jin woo - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹3999/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro7'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro8'"
+          class="pro"
+          id="pro8"
+        >
+          <img src="product8.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Zoro Emma - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹4499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro8'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>KATANAS</h2>
+
+      <div class="pro-container">
+        <div
+          onclick="window.location.href='sproduct.html?id=pro9'"
+          class="pro"
+          id="pro9"
+        >
+          <img src="product9.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Ichigo - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹3499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro9'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro10'"
+          class="pro"
+          id="pro10"
+        >
+          <img class="pro2img" src="product10.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Sanemi Black - katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>₹4499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro10'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro11'"
+          class="pro"
+          id="pro11"
+        >
+          <img src="product11.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Trafalgar D Law - katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹3999/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro11'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro12'"
+          class="pro"
+          id="pro12"
+        >
+          <img src="product12.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Zenitsu - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹4499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro12'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro7'"
+          class="pro"
+          id="pro7"
+        >
+          <img src="product7.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Sung jin woo - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹3999/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro7'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro8'"
+          class="pro"
+          id="pro8"
+        >
+          <img src="product8.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Zoro Emma - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹4499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro8'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro17'"
+          class="pro"
+          id="pro17"
+        >
+          <img src="product17.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Luffy Nidai Kitetsu - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹4499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro17'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro18'"
+          class="pro"
+          id="pro18"
+        >
+          <img src="product18.png" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Zoro Meltou Shusui - Katana</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹4499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro18'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Action Figures</h2>
+
+      <div class="pro-container">
+        <div
+          onclick="window.location.href='sproduct.html?id=pro19'"
+          class="pro"
+          id="pro19"
+        >
+          <img src="product19.jpg" />
+          <div class="dis" style="margin-top: 25px">
+            <span>OtakuHub</span>
+            <h5>Black Leg Sanji Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro19'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro1'"
+          class="pro"
+          id="pro1"
+        >
+          <img src="product1.jpg" />
+          <div class="dis" style="margin-top: 25px">
+            <span>OtakuHub</span>
+            <h5>Luffy Gear5 Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro1'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro2'"
+          class="pro"
+          class="pro"
+          id="pro2"
+        >
+          <img class="pro2img" src="product2.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Pain(Nagato) Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro2'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro3'"
+          class="pro"
+          class="pro"
+          id="pro3"
+        >
+          <img class="pro2img" src="product3.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Goku vs Frieza Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro3'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro15'"
+          class="pro"
+          id="pro15"
+        >
+          <img src="product15.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Zoro Asura Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1999/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro15'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro14'"
+          class="pro"
+          id="pro14"
+        >
+          <img src="product14.jpg" />
+          <div class="dis" style="margin-top: 30px">
+            <span>OtakuHub</span>
+            <h5>Naruto-Minato-Jiraya Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1949/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro14'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro4'"
+          class="pro"
+          class="pro"
+          id="pro4"
+        >
+          <img src="product4.jpg" />
+          <div class="dis" style="margin-top: 10px">
+            <span>OtakuHub</span>
+            <h5>Goku Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a class="cart" onclick="addToCart('pro4'); event.stopPropagation();">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro20'"
+          class="pro"
+          id="pro20"
+        >
+          <img src="product20.jpg" />
+          <div class="dis" style="margin-top: 70px">
+            <span>OtakuHub</span>
+            <h5>Lucy Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro20'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro21'"
+          class="pro"
+          id="pro21"
+        >
+          <img src="product21.jpg" />
+          <div class="dis" style="margin-top: 90px">
+            <span>OtakuHub</span>
+            <h5>Inosuke Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro21'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro22'"
+          class="pro"
+          id="pro22"
+        >
+          <img src="product22.jpg" />
+          <div class="dis" style="margin-top: 65px">
+            <span>OtakuHub</span>
+            <h5>Daki Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro22'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro23'"
+          class="pro"
+          id="pro23"
+        >
+          <img style="margin: 0" src="product23.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Luffy Gear5 Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro23'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro24'"
+          class="pro"
+          id="pro24"
+        >
+          <img class="pro2img" src="product24.jpg" />
+          <div class="dis" style="margin-top: 40px">
+            <span>OtakuHub</span>
+            <h5>Itachi Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro24'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro25'"
+          class="pro"
+          id="pro25"
+          style="height: 550px"
+        >
+          <img id="img-1" src="product25.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Trunks Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1999/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro25'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro26'"
+          class="pro"
+          id="pro26"
+          style="height: 550px"
+        >
+          <img id="img-2" src="product26.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Dragon ball Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1949/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro26'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro27'"
+          class="pro"
+          id="pro27"
+          style="height: 550px"
+        >
+          <img style="height: 320px" src="product27.jpg" />
+          <div class="dis" style="margin-top: 50px">
+            <span>OtakuHub</span>
+            <h5>Gyutaro Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro27'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro28'"
+          class="pro"
+          id="pro28"
+          style="height: 550px"
+        >
+          <img style="margin-top: 50px" src="product28.jpg" />
+          <div id="pro-1" class="dis">
+            <span>OtakuHub</span>
+            <h5>Goku Action Figure</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro28'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>MINI FIGURES</h2>
+
+      <div class="pro-container">
+        <div
+          onclick="window.location.href='sproduct.html?id=pro36'"
+          class="pro"
+          id="pro36"
+        >
+          <img src="product37.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Strawhat-Combo</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1099/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro36'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro35'"
+          class="pro"
+          id="pro35"
+        >
+          <img style="height: 320px" class="pro2img" src="product36.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Nezuko-chan</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4>₹199/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro35'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro34'"
+          class="pro"
+          id="pro34"
+        >
+          <img src="product35.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Akatsuki-Combo</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1499/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro34'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro33'"
+          class="pro"
+          id="pro33"
+        >
+          <img style="margin-bottom: 29px" src="product34.jpg" />
+          <div class="dis">
+            <span>OtakuHub</span>
+            <h5>Naruto - Sasuke</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹299/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro33'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro32'"
+          class="pro"
+          id="pro32"
+        >
+          <img src="product33.jpg" />
+          <div style="padding-top: 100px" class="dis">
+            <span>OtakuHub</span>
+            <h5>Tanjiro</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹199/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro32'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro31'"
+          class="pro"
+          id="pro31"
+        >
+          <img src="product32.jpg" />
+          <div style="padding-top: 100px" class="dis">
+            <span>OtakuHub</span>
+            <h5>Naruto-Combo</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹699/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro31'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro30'"
+          class="pro"
+          id="pro30"
+        >
+          <img style="margin: 0" src="product31.jpg" />
+          <div style="padding-top: 70px" class="dis">
+            <span>OtakuHub</span>
+            <h5>Sukuna</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹199/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro30'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+        <div
+          onclick="window.location.href='sproduct.html?id=pro29'"
+          class="pro"
+          id="pro29"
+        >
+          <img src="product29.jpg" />
+          <div style="padding-top: 100px" class="dis">
+            <span>OtakuHub</span>
+            <h5>Dragonball-Combo</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>₹1999/-</h4>
+          </div>
+          <a
+            class="cart"
+            onclick="addToCart('pro29'); event.stopPropagation();"
+          >
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- 🎁 Random Gifts Section -->
+    <section id="gifts" class="section-p1">
+      <h2>🎁 Random Gifts</h2>
+      <p>Special mini figures & keychains just for you!</p>
+      <p>Mini figure over 1500/- & keychain over 300/-</p>
+      <p>You can buy exclusive gifts also</p>
+      <div class="pro-container" id="gifts-container"></div>
+    </section>
+
+    <script src="products.js"></script>
+    <script>
+      // Gift pool (your 4 products)
+      const giftIds = ["pro5", "pro6", "pro13", "pro16"];
+
+      function loadGifts() {
+        const container = document.getElementById("gifts-container");
+        container.innerHTML = "";
+
+        // Shuffle & pick 4 (or fewer if you want less)
+        const randomGifts = giftIds.sort(() => 0.5 - Math.random());
+
+        randomGifts.forEach((id) => {
+          const p = products[id];
+          if (!p) return;
+          const div = document.createElement("div");
+          div.className = "pro";
+          div.innerHTML = `
+        <img src="${p.img}" alt="${p.name}" />
+        <div class="dis">
+          <span>OtakuHub</span>
+          <h5>${p.name}</h5>
+        </div>
+       
+      `;
+          div.onclick = () => (window.location.href = "sproduct.html?id=" + id);
+          container.appendChild(div);
+        });
+      }
+
+      loadGifts();
+    </script>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="footerlogo" src="logo4.png" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Alwal Police station road, Alwal, Hyderabad
+        </p>
+        <p><strong>Phone:</strong> +91 87900 89668</p>
+        <p><strong>Email:</strong> Venkatnani853@gmail.com</p>
+        <p><strong>Hours:</strong> 11:00 - 20:00</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Playstore</p>
+        <div class="row">
+          <img src="play.jpg" alt="" />
+          <img src="appstore.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="pay.png" />
+      </div>
+      <div class="copyright">
+        <p>© Copyright 2025, Venkat - Html CSS JS Ecommerce Website</p>
+      </div>
+    </footer>
+    <script>
+      function addToCart(id) {
+        const p = products[id];
+        if (!p) return alert("Product not found!");
+
+        const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+
+        // check if item already in cart
+        const existing = cart.find((item) => item.id === id);
+        if (existing) {
+          existing.qty += 1;
+        } else {
+          cart.push({ id, name: p.name, price: p.price, img: p.img, qty: 1 });
+        }
+
+        localStorage.setItem("cart", JSON.stringify(cart));
+        alert(`${p.name} added to cart 🛒`);
+      }
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
